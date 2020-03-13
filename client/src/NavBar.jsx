@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useDarkMode } from './useDarkMode';
 import {
   Navbar,
@@ -18,7 +18,7 @@ const NavBar = () => {
         <div>
             <Navbar>
                 <Nav>
-                <Button onClick={toggleMode}></Button>
+                <Button onClick={toggleMode}>Dark Mode</Button>
                 <NavbarText>Google Trends, June-July 2019</NavbarText>
 
                 </Nav>
