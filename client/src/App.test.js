@@ -7,6 +7,6 @@ test('Renders Correctly', async () => {
 
     getByText(/Google Trends/i)
     getByText(/US Women's Soccer Team/i)
-    await findByText(/Alex Morgan/i)  
+    await findByText(/Alex Morgan/i)   
 
 }) 
