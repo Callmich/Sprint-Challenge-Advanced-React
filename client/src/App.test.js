@@ -8,7 +8,5 @@ test('Renders Correctly', () => {
     getByText(/Google Trends/i)
     getByText(/US Women's Soccer Team/i)
     findByText(/Alex Morgan/i)
-    
-
 
 }) 
